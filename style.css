@@ -1,0 +1,84 @@
+img
+{
+    padding: 10px;
+    width: 1230px;
+    height: 570px; 
+    background-repeat: no-repeat;
+
+}
+
+h1{
+    position: absolute;
+    left: 155px;
+    top: 200px;
+    color: white;
+    font-family: "Gibson W04", Helvetica,"Open Sans", sans-serif; 
+    font-weight: 500;
+    font-size: 90px;
+    letter-spacing: 4px;
+}
+
+.btn
+{
+    position: absolute;
+    left: 550px;
+    bottom: 250px;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid white;
+    color : white; 
+    background-color: transparent;
+    border-radius:5px; 
+    font-family: "sofia pro", Helvetica,"Open Sans", sans-serif;
+    font-size:16px;
+    font-weight: 400; 
+    cursor: pointer;
+}
+.btn :hover
+{
+    background-color: red;
+}
+footer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+ol{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+li
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: "sofia pro", Helvetica,"Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+
+}
+li :hover
+{
+    border-top: 2px solid aquamarine;
+    border-bottom: 2px solid aquamarine;
+    display: block;
+}
+li a{
+    text-decoration: none;
+    color: #727D86;
+}
+div a
+{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    font-family: "Gibson W04", Helvetica,"Open Sans", sans-serif; 
+    font-weight: 200;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
