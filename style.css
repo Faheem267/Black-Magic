@@ -22,7 +22,7 @@ h1{
 {
     position: absolute;
     left: 550px;
-    bottom: 250px;
+    bottom: 200px;
     width: 150px;
     padding: 10px;
     border: 1px solid white;
@@ -34,10 +34,7 @@ h1{
     font-weight: 400; 
     cursor: pointer;
 }
-.btn :hover
-{
-    background-color: red;
-}
+
 footer
 {
     display: flex;
@@ -75,10 +72,10 @@ div a
 {
     position: absolute;
     right: 50px;
-    bottom: 50px;
+    bottom: 0px;
     font-family: "Gibson W04", Helvetica,"Open Sans", sans-serif; 
     font-weight: 200;
-    font-size: 15px;
+    font-size: 17px;
     text-decoration: none;
     color: black;
 }
